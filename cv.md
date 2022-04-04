@@ -13,3 +13,26 @@ I like to learn new things and gain new skills. From my point of view aducation 
 - CSS (SASS/LESS)
 - JS Basics
 
+## Code Example
+```
+var calculate = function(nums){
+  var sum = 0;
+  for(var i=0; i<arguments.length; i++){
+    sum += arguments[i]
+  }
+  return function(nums2) {
+    for(var j=0; j<arguments.length; j++){
+    sum += arguments[j];
+  }
+  return sum;
+  } 
+};
+```
+## Education
+
+Belarusian National Technical University (2015-2019)
+
+## Other Skills
+
+- **English** - A2
+- **Russian** - C1
